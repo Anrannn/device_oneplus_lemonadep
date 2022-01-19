@@ -24,6 +24,7 @@ $(call inherit-product, device/oneplus/lemonadep/device.mk)
 # Inherit some common Evolution X stuff.
 $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
+EXTRA_UDFPS_ANIMATIONS := true
 PRODUCT_NAME := evolution_lemonadep
 PRODUCT_DEVICE := lemonadep
 PRODUCT_MANUFACTURER := OnePlus
