@@ -21,11 +21,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from lemonadep device
 $(call inherit-product, device/oneplus/lemonadep/device.mk)
 
-# Inherit some common Evolution X stuff.
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+# Inherit some common Kaleidoscope stuff.
+$(call inherit-product, vendor/kscope/config/mobile.mk)
 
 EXTRA_UDFPS_ANIMATIONS := true
-PRODUCT_NAME := evolution_lemonadep
+PRODUCT_NAME := kscope_lemonadep
 PRODUCT_DEVICE := lemonadep
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
